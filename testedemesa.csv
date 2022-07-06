@@ -1,0 +1,36 @@
+,Add,,,
+a,b,a+b,,
+3,5,8,,
+,,,,
+,Multiply,,,
+multiplicacao,i,i < y,"multiplicacao = add(x, multiplicacao)",
+0,0,true,6,
+6,1,true,12,
+12,2,true,18,
+18,3,true,24,
+24,4,false,-,
+,,,,
+,Power,,,
+potencia,i,i < n,"multiply(x, potencia)",
+1,0,true,3,
+3,1,true,9,
+9,2,true,27,
+27,3,true,81,
+81,4,false,-,
+,,,,
+,Factor,,,
+fatorial,i,i > 0,"multiply(i, fatorial)",x
+5,4,true,20,5
+20,3,true,60,-
+60,2,true,120,-
+120,1,true,120,-
+120,0,false,-,-
+,,,,
+,Fibonacci,,,
+valorAnterior,valorAtual,provimoValor,i,
+0,1,1,1,
+1,1,2,2,
+1,1,3,3,
+1,2,5,4,
+2,3,8,5,
+,,,,
