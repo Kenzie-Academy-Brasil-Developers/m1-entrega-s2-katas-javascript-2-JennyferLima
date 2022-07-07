@@ -81,7 +81,7 @@ function fibonacci(x){
     let valorAtual = 1;
     let proximoValor = 0;
 
-    if(i = 2; i <= x; i++){
+    for(let i = 2; i <= x; i++){
 
         proximoValor = add(valorAnterior, valorAtual);
 
